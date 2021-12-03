@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.app{
+  width: 100vw;
+  height: 100vh;
+
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  margin: 10px;
+  width: 200px;
+
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.card:hover{
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.card-img{
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+.card img{
+  width: 130px;
+}
+.header{
+  margin: 10px;
+  width: 100vw;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}.menu {
+
+   display: flex;
+   justify-content: center;
+ }
+ .menu .One{
+   font-family: 'Cedarville Cursive', cursive;
+   font-size: 1.5em;
+   margin-left: 20px;
+ }
+ a{
+   text-decoration: none;
+ }
+ a:hover{
+   color: crimson;
+ }
